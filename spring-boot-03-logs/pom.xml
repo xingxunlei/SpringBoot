@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-boot</artifactId>
+        <groupId>com.xingxunlei.spring</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot-03-logs</artifactId>
+
+    <packaging>pom</packaging>
+    <name>spring-boot-03-logs</name>
+    <description>spring-boot整合多个Java日志框架</description>
+    <modules>
+        <module>spring-boot-03-logs-Log4j</module>
+        <module>spring-boot-03-logs-Log4j2</module>
+        <module>spring-boot-03-logs-Logback</module>
+    </modules>
+
+
+</project>
